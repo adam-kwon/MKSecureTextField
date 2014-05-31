@@ -4,6 +4,8 @@ It will work for any language, even for composite character languages like Korea
 
 To use, copy te MKSecureTextField.h and MKSecureTextField.m into your project. Then simply instantiate it and add it to a view:
 
+    #import "MKSecureTextField.h"
+    ...
     MKSecureTextField *f = [[MKSecureTextField alloc] initWithFrame:CGRectMake(35, 100, 250, 40)];
     [self.view addSubview:f];
 
