@@ -1,4 +1,4 @@
-MKSecureTextField overcomes the limitation of the UITextField not allowing you to change to a different language if the secureTextEntry is set to true.
+MKSecureTextField overcomes a limitation of the UITextField not allowing you to change to a different language if the secureTextEntry is set to true.
 
 It will work for any language, even for composite character languages like Korean.
 
