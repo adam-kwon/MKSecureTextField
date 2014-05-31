@@ -18,8 +18,8 @@
 {
     [super viewDidLoad];
     
-    MKSecureTextField *secure = [[MKSecureTextField alloc] initWithFrame:CGRectMake(35, 100, 250, 40)];
-    [self.view addSubview:secure];
+    MKSecureTextField *secureTextField = [[MKSecureTextField alloc] initWithFrame:CGRectMake(35, 100, 250, 40)];
+    [self.view addSubview:secureTextField];
     
 }
 
