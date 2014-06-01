@@ -1,6 +1,6 @@
 MKSecureTextField overcomes a limitation of the UITextField not allowing you to change to a different language if the secureTextEntry is set to true.
 
-It will work for any language, even for composite character languages like Korean.
+It will work for any language, even for composite character languages like Korean.  Languages like Korean (Hangul) has a composite character where each letter is composed of multiple symbols. For example, ‘ㅁ’, ‘ㅏ’ and ‘ㄴ’ are all individual characters, but when combined, it becomes ‘만’, which is treated as a single letter.
 
 To use, copy te MKSecureTextField.h and MKSecureTextField.m into your project. Then simply instantiate it and add it to a view:
 
