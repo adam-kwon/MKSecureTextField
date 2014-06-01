@@ -8,10 +8,10 @@
 #import "MKSecureTextField.h"
 
 @interface MKSecureTextField()<UITextFieldDelegate>
-@property (nonatomic, strong) UITextField *textField;
-@property (nonatomic, strong) UILabel *hideLabel;
-@property (nonatomic, strong) NSTimer *hideTimer;
-@property (nonatomic, strong) NSTimer *blinkTimer;
+@property (nonatomic, strong) UITextField* textField;
+@property (nonatomic, strong) UILabel* hideLabel;
+@property (nonatomic, strong) NSTimer* hideTimer;
+@property (nonatomic, strong) NSTimer* blinkTimer;
 @end
 
 @implementation MKSecureTextField
@@ -53,10 +53,10 @@
 
 - (void)textFieldDidChange:(NSNotification*)notification
 {
-    UITextField *textField = notification.object;
+    UITextField* textField = notification.object;
     if (textField == _textField)
     {
-        NSString *text = textField.text;
+        NSString* text = textField.text;
         
         
         [self hideExceptLastCharacter:text];
@@ -102,7 +102,7 @@
 {
     int length = [_textField.text length];
     
-    NSString *s = @"";
+    NSString* s = @"";
     for (int i = 0; i < length-1; i++)
     {
         s = [s stringByAppendingString:@"●"];
